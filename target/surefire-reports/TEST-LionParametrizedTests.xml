@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="LionParametrizedTests" time="0.007" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="LionParametrizedTests" time="0.009" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\katen\AppData\Local\Temp\surefire5485002495593429852\surefirebooter-20240608234142410_3.jar C:\Users\katen\AppData\Local\Temp\surefire5485002495593429852 2024-06-08T23-41-42_304-jvmRun1 surefire-20240608234142410_1tmp surefire_0-20240608234142410_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\katen\AppData\Local\Temp\surefire3356154114804739226\surefirebooter-20240610161330156_3.jar C:\Users\katen\AppData\Local\Temp\surefire3356154114804739226 2024-06-10T16-13-30_042-jvmRun1 surefire-20240610161330156_1tmp surefire_0-20240610161330156_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\cygwin64\home\katen\qa_java\target\test-classes;C:\cygwin64\home\katen\qa_java\target\classes;C:\Users\katen\.m2\repository\org\mockito\mockito-core\4.6.1\mockito-core-4.6.1.jar;C:\Users\katen\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.10\byte-buddy-agent-1.12.10.jar;C:\Users\katen\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;C:\Users\katen\.m2\repository\net\bytebuddy\byte-buddy\1.12.10\byte-buddy-1.12.10.jar;C:\Users\katen\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\katen\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\katen\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\katen\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\katen\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\katen\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\katen\AppData\Local\Temp\surefire5485002495593429852\surefirebooter-20240608234142410_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\katen\AppData\Local\Temp\surefire3356154114804739226\surefirebooter-20240610161330156_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.1+12-LTS-29"/>
@@ -59,6 +59,6 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="getFoodTest[0]" classname="LionParametrizedTests" time="0.004"/>
-  <testcase name="getFoodTest[1]" classname="LionParametrizedTests" time="0.001"/>
+  <testcase name="getFoodTest[0]" classname="LionParametrizedTests" time="0.005"/>
+  <testcase name="getFoodTest[1]" classname="LionParametrizedTests" time="0.0"/>
 </testsuite>

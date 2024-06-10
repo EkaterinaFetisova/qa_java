@@ -2,14 +2,7 @@ package com.example;
 
 import java.util.List;
 
-import java.util.List;
-
-interface IFeline {
-    public int getKittens();
-    List<String> getFood(String animalKind) throws Exception;
-};
-
-public class Feline extends Animal implements Predator, IFeline {
+public class Feline extends Animal implements Predator {
 
     @Override
     public List<String> eatMeat() throws Exception {
